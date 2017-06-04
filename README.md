@@ -4,8 +4,14 @@ This script will backup a MongoDB Replica Set
 
 ## Usage
 
-/bin/bash mongodump_replicaset_backup.sh <MONGO_DBS> <MONGO_HOST> <MONGO_PORT> <MONGO_COL> <BACKUP_SERVER>
+/bin/bash mongodump_replicaset_backup.sh <DBS> <HOST> <PORT> <COL> <BACKUP_SERVER>
 
-## Author 
+DBS: 		Database name or all
+HOST:		Mongo host
+PORT:		Mongo port
+COL: 		Mongo collection
+BACKUP_SERVER: 	Backup server name, it is optional parameter if you leave "" then it will take backup in same server
+
+## Author
 
 Nasheb Ismaily
