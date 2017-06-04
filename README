@@ -1,0 +1,18 @@
+This script will backup a MongoDB Replica Set
+
+Script input parameters: 
+
+# Database name or all
+MONGO_DBS="$1"
+
+# Mongo host name
+MONGO_HOST="$2"
+
+# Mongo port
+MONGO_PORT="$3"
+
+# Mongo Collection
+MONGO_COL="$4"
+
+# Backup server name, it is optional parameter if you leave "" then it will take backup in same server
+BACKUP_SERVER="$5"

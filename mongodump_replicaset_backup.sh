@@ -1,14 +1,13 @@
 #!/bin/bash
 ##########################################
-# pass source and destinations
-# Compulsory parameters, which need to run the scripts
-# Database name or all
+# Backup MongoDB Replica Sets
 #
 # Author::  Nasheb Ismaily
 #
 # All rights reserved - Do Not Redistribute
 
 ## Variables ##
+# Database name or all
 MONGO_DBS="$1"
 # Mongo host name
 MONGO_HOST="$2"
